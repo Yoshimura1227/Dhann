@@ -8180,128 +8180,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1446325538}
   m_CullTransparentMesh: 1
---- !u!1 &1492962157
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1492962162}
-  - component: {fileID: 1492962161}
-  - component: {fileID: 1492962160}
-  - component: {fileID: 1492962159}
-  - component: {fileID: 1492962158}
-  m_Layer: 0
-  m_Name: Cube2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1492962158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1492962157}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 245acad03e5574c64acfe93b42125547, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  flowchart: {fileID: 1993378100}
-  blockName: Start2
-  interactionDistance: 2
-  interactionUI: {fileID: 1871238787}
---- !u!65 &1492962159
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1492962157}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1492962160
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1492962157}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: be6e3a3c4033d4bcf85d43bc512c10c1, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1492962161
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1492962157}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1492962162
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1492962157}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -63.4, y: 22.53, z: -38.13}
-  m_LocalScale: {x: 2.36018, y: 3.1921394, z: 1.6387593}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1506473927
 GameObject:
   m_ObjectHideFlags: 0
@@ -9114,7 +8992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowchart: {fileID: 1993378100}
-  blockName: Start9
+  blockName: Start2
   interactionDistance: 3
   interactionUI: {fileID: 1871238787}
 --- !u!65 &1751245439
@@ -9158,7 +9036,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: be6e3a3c4033d4bcf85d43bc512c10c1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9197,8 +9075,8 @@ Transform:
   m_GameObject: {fileID: 1751245437}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -93.84, y: 22.31, z: -64.59}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -60.704, y: 22.54, z: -38.022}
+  m_LocalScale: {x: 2.36018, y: 3.1921394, z: 1.6387593}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -9682,11 +9560,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 109.79999, y: 257.6}
+  scrollPos: {x: 121.27406, y: 268.82993}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.625
+  zoom: 0.60950035
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -9694,9 +9572,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1993378147}
+  - {fileID: 1993378111}
   selectedCommands:
-  - {fileID: 1993378143}
+  - {fileID: 1993378113}
   variables: []
   description: 
   stepPause: 0
@@ -9751,7 +9629,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 70
     y: 76
-    width: 77.2
+    width: 77.8917
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -9913,7 +9791,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 105
     y: 164
-    width: 84.4
+    width: 85.274796
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -10030,7 +9908,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 113.79426
     y: 5.7942615
-    width: 85.2
+    width: 86.09514
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10119,7 +9997,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 221.08955
     y: 505.96106
-    width: 91.6
+    width: 91.83755
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10353,7 +10231,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 342.77164
     y: 466.29895
-    width: 90.8
+    width: 91.017204
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10497,7 +10375,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 188.62512
     y: 406.53528
-    width: 90
+    width: 89.37651
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10643,7 +10521,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 284.0797
     y: 373.4184
-    width: 91.6
+    width: 91.017204
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10787,7 +10665,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 162.78772
     y: 300.11014
-    width: 84.4
+    width: 85.274796
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10931,7 +10809,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 330.21234
     y: 301.80823
-    width: 84.4
+    width: 85.274796
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11076,7 +10954,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 297.33563
     y: 211.39728
-    width: 84.4
+    width: 85.274796
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11220,7 +11098,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 260
     y: 128
-    width: 84.4
+    width: 85.274796
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11364,7 +11242,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 242
     y: 36
-    width: 84.4
+    width: 85.274796
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11508,7 +11386,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 162
     y: -73
-    width: 85.2
+    width: 86.09514
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11904,7 +11782,6 @@ SceneRoots:
   - {fileID: 963194228}
   - {fileID: 1528389698}
   - {fileID: 553718954}
-  - {fileID: 1492962162}
   - {fileID: 973061145}
   - {fileID: 1203448131}
   - {fileID: 1163660739}
