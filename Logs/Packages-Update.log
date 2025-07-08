@@ -35,3 +35,11 @@ The following packages were added:
   com.unity.modules.subsystems@1.0.0
 The following packages were updated:
   com.unity.collab-proxy from version 2.3.1 to 2.4.4
+
+=== Wed Jul  9 02:53:34 2025
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.toonshader@0.10.2-preview
